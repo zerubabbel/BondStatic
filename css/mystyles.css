@@ -206,6 +206,19 @@ footer a span {
 
 
 
+/*INSURANCE TYPES*/
+
+.epli{
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+}
+
+.epli:hover{
+	color: black;
+}
+
 
 
 
