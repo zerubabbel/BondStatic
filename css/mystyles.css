@@ -115,12 +115,9 @@
 }
 
 .mission {
-	background-color: #222;
-	color: white;
+
 }
-.blank-space{
-	background-color: white;
-}
+
 
 /*FOOTER*/
 footer {
@@ -173,7 +170,9 @@ footer a span {
 }
 
 /*BONDS PAGE*/
-
+.bonds h4 {
+	text-decoration: underline;
+}
 .bonds ul li {
 	list-style: none;
 }
