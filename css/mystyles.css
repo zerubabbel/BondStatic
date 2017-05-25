@@ -82,6 +82,14 @@
 	text-align: center;
 }
 
+.dropdowner li  a {
+
+	background-color: #222;
+	white-space: nowrap;
+	text-align: center;
+	min-width: 100%; 
+}
+
 
 
 /*HERO*/
@@ -184,3 +192,44 @@ footer a span {
 .site-logo a{
 	color: white;
 }
+
+.bond-types h3 {
+	font-weight: bold;
+
+
+}
+
+.bond-types h3 a {
+	text-decoration: underline;
+}
+
+.bondsInfo{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+/*INSURANCE TYPES*/
+
+.epli{
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+}
+
+.epli:hover{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
