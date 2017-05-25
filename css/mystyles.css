@@ -3,6 +3,9 @@
 	outline: none;
 }
 
+li{
+	list-style: none; 
+}
 
 .wrap{
 	width: 90%;
@@ -222,13 +225,33 @@ footer a span {
 	color: black;
 }
 
+.deepest-coverage{
+	font-weight: bold;
+	color: black;
+}
+
+.who-needs{
+	font-weight: bold;
+	color: black;
+}
+
+.contractors{
+	margin-bottom: 50px;
+}
+
+.auto-insurance{
+	
+	margin-bottom: 50px;
+}
 
 
+.home-insurance{
+	margin-bottom: 50px;
+}
 
-
-
-
-
+.life-insurance{
+	margin-bottom: 50px;
+}
 
 
 
