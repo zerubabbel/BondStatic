@@ -110,7 +110,7 @@
             <div class="wrap row">
              
               <div class="large-6 columns">
-                <h4 class='text-center'>Bonds</h4>
+                <h4 class='text-center'><strong>Bonds</strong></h4>
                 <hr>
                 <p>
                   We specialize in Contractor bonds for developers and all types of contractors.
@@ -118,7 +118,7 @@
                 </p>
               </div>
               <div class="large-6 columns">
-                <h4 class='text-center'>Insurance</h4>
+                <h4 class='text-center'><strong>Insurance</strong></h4>
                 <hr>
                 <p>
                   We offer a wide variety of insurance, including Auto, Home, Umbrella, and various other types. Click <a href="insurance.html">here</a> to learn more.
@@ -132,7 +132,7 @@
          <section id="anchor-contact">
             <div class="wrap row">
               <div class="large-6 columns">
-                <h4 class='text-center'>Contact</h4>
+                <h4 class='text-center'><strong>Contact</strong></h4>
                 <hr>
                 <p>
                   Office: (916) 318-9300 <br>
@@ -142,7 +142,7 @@
                 </p>
               </div>
               <div class="large-6 columns">
-                <h4 class="text-center">Hours</h4>
+                <h4 class="text-center"><strong>Hours</strong></h4>
                   <hr>
                   <p>
                       Mon:  
@@ -162,7 +162,31 @@
             </div>
          </section>
 
-          
+          <section class="responsive"  >
+            <div class="wrap row">
+              <div id="map" class="large-12 columns">
+              </div>
+            </div>
+         </section>
+
+         <script>
+
+         // 38.6349125,-121.0677248
+            function initMap() {
+              var uluru = {lat: 38.6349125, lng: -121.0677248};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZjyKprSlIrjUKZ4b20SHH4S3pK6-9zVk&callback=initMap">
+          </script>
 
     <!-- FOOTER -->
           <footer>
