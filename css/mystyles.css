@@ -157,21 +157,35 @@ footer hr {
 	margin: 10px 0;
 }
 
-footer a {
+footer li {
 	display: block;
 	color: rgba(255,255,255,0.6);
 	font-size: 0.8em;
+}
+
+footer li:hover{
+	color: rgba(255,255,255,0.6);
+}
+
+footer a {
+	display: block;
+	color: rgba(255,255,255,0.6);
+
 }
 
 footer a:hover{
 	color: rgba(255,255,255,0.6);
 }
 
-footer a span {
+footer li span {
 	font-weight: bold;
 	color: rgba(255,255,255,0.3);
 }
 
+footer ul {
+
+	margin-left: 0px;
+}
 
 
 /*MEDIA QUERY*/
